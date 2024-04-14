@@ -7,6 +7,7 @@
     list-style-type: none;
     text-decoration: none;
     font-size: 16px;
+    font-family: 'Monserrat', sans-serif;
 }
 
 .wrapper {
@@ -15,6 +16,104 @@
     padding: 0 15px;
 }
 
+/* Services */
+
+.services_item {
+    background: #1a1f25;
+}
+
+.services_item_description {
+    padding: 90px 0;
+}
+
+.services_item_title {
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+}
+
+.services_item_list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 80px;
+}
+
+.service_item {
+    padding: 46px 19px;
+    border-right: 1px solid #595959;
+    border-bottom: 1px solid #595959;
+}
+
+.borderBottom_modification{
+    border-bottom: none;
+}
+
+.borderBottomRight_modification{
+    border-right: none;
+}
+
+.service_item:nth-child(15) {
+    border-right: none;
+}
+
+.service_item_image {
+    text-align: center;
+}
+
+.service_item_image img {
+    width: 50px;
+    height: 50px;
+}
+
+.service_item_description {
+    padding-top: 20px;
+    width: 203px;
+    text-align: left;
+}
+
+.service_item_text {
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+}
+
+.service_item_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.service_item_Btn_more {
+    border: 1px solid #fff;
+    padding: 14px 30px;
+    width: 185px;
+    position: relative;
+}
+
+.service_item:nth-child(13) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Btn_more {
+    background: none;
+    border: none;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+}
+
+.service_item_Btn_more_icon {
+    position: absolute;
+    right: 21.5px;
+    top: 15px;
+}
+
+/* Our Advantages */
 .ourAdvantages_item {
     background-image: url(./public/background_ourAdvantages.png);
     background-repeat: no-repeat;

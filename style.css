@@ -16,16 +16,30 @@
     padding: 0 15px;
 }
 
+/*Portfolio*/
+
+.portfolio_section {
+    padding: 90px 0 0 0 ;
+}
+
+.portfolio_item_title {
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    color: #000;
+}
+
+.portfolio_item_image {
+    margin: 70px 0 0 0;
+}
+
+
 /* Services */
 
-.services_item {
+.services_section {
     background: #1a1f25;
-}
-
-.services_item_description {
     padding: 90px 0;
 }
-
 .services_item_title {
     font-weight: 500;
     font-size: 48px;
@@ -114,13 +128,10 @@
 }
 
 /* Our Advantages */
-.ourAdvantages_item {
+.ourAdvantages_section {
     background-image: url(./public/background_ourAdvantages.png);
     background-repeat: no-repeat;
-}
-
-.ourAdvantages_item_description {
-    padding: 336px 0 190px 0;
+    padding: 336px 0 167px 0;
 }
 
 .ourAdvantages_item_title {
@@ -154,4 +165,78 @@
     font-weight: 500;
     line-height: 150%;
     color: #1a1f25;
+}
+
+/* Footer */
+
+.footer_section {
+    background: #17181c;
+    padding: 103px 0;
+}
+
+.footer_item_list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #595959;
+}
+
+.footer_item {
+    width: 266px;
+}
+
+.footer_item_title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 33px;
+}
+
+.footer_item_description {
+    font-weight: 400;  
+    color: #e6e6e6;
+}
+
+.footer_item_text {
+    margin-top: 20px;
+    font-weight: 400;
+    color: #e6e6e6;
+}
+
+.footer_item_iconAndContact {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 30px;
+}
+
+
+.footer_item_contact {
+    font-weight: 400;
+    color: #e6e6e6;
+}
+
+.footer_item_developerAndSocial {
+    margin-top: 46px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_item_social_list {
+    display: flex;
+    gap: 10px;
+}
+
+.footer_item_social {
+    padding: 5px;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+}
+
+.footer_item_developer {
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
 }

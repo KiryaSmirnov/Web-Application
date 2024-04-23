@@ -8,6 +8,7 @@
     text-decoration: none;
     font-size: 16px;
     font-family: 'Monserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -15,6 +16,61 @@
     margin: 0 auto;
     padding: 0 15px;
 }
+
+/* Header */
+
+.header_section {
+    background: url(./public/homeBanner.png);
+    background-size: cover;
+    padding: 250px 0 528px 0;
+}
+
+.header_item_title {
+    font-weight: 400;
+    font-size: 74px;
+    text-transform: uppercase;
+    color: #212733;
+    text-align: center;
+}
+
+.header_item_text {
+    padding: 20px 0 60px 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+}
+
+.header_button_details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header_item_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid #000;
+    padding: 14px 30px;
+    width: 280px;
+}
+
+.Btn_details {
+    background: none;
+    border: none;
+    font-weight: 500;
+    color: #000;
+    position: absolute;
+}
+
+.header_item_button_icon {
+    position: relative;
+    top: 1px;
+    left: 108px;
+}
+
+/*Scroll*/
 
 /*Portfolio*/
 
@@ -31,6 +87,10 @@
 
 .portfolio_item_image {
     margin: 70px 0 0 0;
+}
+
+.portfolio_item_image img {
+    width: 100%;
 }
 
 
@@ -82,7 +142,7 @@
 
 .service_item_description {
     padding-top: 20px;
-    width: 203px;
+    max-width: 203px;
     text-align: left;
 }
 
@@ -130,8 +190,8 @@
 /* Our Advantages */
 .ourAdvantages_section {
     background-image: url(./public/background_ourAdvantages.png);
-    background-repeat: no-repeat;
-    padding: 336px 0 167px 0;
+    background-size: cover;
+    padding: 336px 0 165px 0;
 }
 
 .ourAdvantages_item_title {
@@ -147,7 +207,6 @@
     justify-content: space-between;
     gap: 60px 0;
     margin-top: 90px;
-
 }
 
 .ourAdvantage_item {
@@ -165,6 +224,46 @@
     font-weight: 500;
     line-height: 150%;
     color: #1a1f25;
+}
+
+/* Offers */
+
+.offers_section {
+    background: #000201;
+}
+
+.offers_item_applicationAndOffers {
+    display: flex;
+    flex-direction: row;
+}
+
+.offers_item_application {
+    background: url(./public/city.png);
+    background-repeat: no-repeat;
+    width: 935px;
+    padding: 173px 0;
+}
+
+.offers_item_application_form {
+    /* padding: 0 73px; */
+    width: 509px;
+}
+
+.offers_item_application_form_title {
+    font-weight: 500;
+    font-size: 48px;
+    color: #fff;
+}
+
+.offers_item_specialOffers {
+    width: 985px;
+}
+
+.offers_item_specialOffers_title {
+    padding: 173px 0 0 135px;
+    font-weight: 500;
+    font-size: 48px;
+    color: #fff;
 }
 
 /* Footer */
@@ -239,4 +338,5 @@
     font-weight: 600;
     font-size: 24px;
     color: #fff;
+    width: 140px;
 }
